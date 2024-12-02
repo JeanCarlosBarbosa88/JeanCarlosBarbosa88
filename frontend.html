@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestão de Equipes</empresarial gestao>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <h1>Gestão de Equipes</h1>
+            <p>Monitoramento e alocação de funcionários em tempo real</p>
+        </header>
+        
+        <section class="dashboard">
+            <div class="chart-container">
+                <h2>Gráfico de Eficiência</h2>
+                <canvas id="efficiencyChart"></canvas>
+            </div>
+            
+            <div class="employee-list">
+                <h2>Lista de Funcionários</h2>
+                <ul id="employee-list">
+                    <!-- Os dados dos funcionários vão aqui -->
+                </ul>
+            </div>
+        </section>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
